@@ -1,4 +1,4 @@
-FROM grafana/grafana:main-ubuntu
+FROM grafana/grafana:8.5.16-ubuntu
 EXPOSE 8080 8080
 COPY nginx /nginx
 COPY start-nginx.sh /start-nginx.sh
